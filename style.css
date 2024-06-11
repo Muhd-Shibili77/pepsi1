@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+    
+    
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+}
+.logo-img{
+    width: 30%;
+    height: 100%;
+    margin-left: 25%;
+}
+.navbar{
+    background-color: #0025ff;
+}
+.nav-item{
+    color: white !important;
+}
+.video-1{
+    width: 100%;
+    height: 100%;
+}
+.btn-Buy{
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: -10%;
+}
+.btn-Buy:hover{
+    color: blue;
+    background-color: white;
+   
+}
+.img-cherry{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.shop{
+    position: absolute !important;
+    top: 100% !important;
+    left: 50% !important;
+}
+.container-fluid{
+    overflow: hidden;
+    padding: 0 !important;
+   
+}
+.image12{
+    translate: 0 -6px !important;
+
+}
+.cherry-button{
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+    color: black;
+    
+    background-color: white;
+    border-radius: 0 ;
+    width: 30%;
+    height: 10%;
+    padding: 1%;
+    text-align: center;
+}
+.cherry-button h1{
+    font-weight: 900;
+    font-size: 65px;
+
+}
+
+
+
+
+.cherry-button:hover{
+    color: white;
+    background-color: #0025ff;
+    
+}
+.masthead{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    translate: 0 -6.5px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title-image{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 4%;
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    .sample2{
+        margin-top: 0;
+        height: 100vh;
+    }
+
+    
+} 
+.btn-1{
+    color: black;
+    background-color: white;
+    border-radius: 0 ;
+    width: 70%;
+    height: 13%;
+    margin-left: 15%;
+    margin-top: 6%;
+    font-weight: 900;
+}
+.btn-1:hover{
+    color: white;
+    background-color: #0025ff;
+}
+.btn-1 h1{
+    font-weight: 900;
+    font-size: 240%;
+}
+.btn-2{
+    color: black;
+    background-color: white;
+    border-radius: 0 ;
+    width: 63%;
+    height: 13%;
+    margin-left: 18%;
+    margin-top: 6%;
+    
+}
+.btn-2:hover{
+    color: white;
+    background-color: #0025ff;
+}
+.btn-2 h1{
+    font-weight: 900;
+    font-size: 240%;
+}
+.video-2{
+    width: 100%;
+    height: 100%;
+    translate: 0 -4px;
+    margin-top: 5%;
+    position: relative;
+    
+}
+.bg-1{
+    background-color: black;
+    height: 100%;
+    translate: 0 -18px;
+    
+}
+.title{
+    text-align: center;
+    font-weight: 900;
+    color: #0025ff;
+    font-size: 3.5rem;
+    margin-top: 5%;
+}
+@media screen and (max-width: 1350px) {
+    .cherry-button h1{
+    
+        font-size:  40px; ;
+    
+    }
+    .btn-2 h1{
+        
+        font-size: 150%;
+    }
+    .btn-1 h1{
+        
+        font-size: 150%;
+    }
+
+    
+} 
+@media screen and (max-width: 830px) {
+    .cherry-button h1{
+    
+        font-size:30px ;
+    
+    }
+    
+
+    
+}  
+
+
+.border{
+    border: 2px solid #0025ff !important;
+   margin-left: 5% !important;
+  
+   width: 90%;
+   height: 100%;
+   
+
+    
+}
+@keyframes rotate-scale{
+    0%
+    {
+        transform: scale(1) rotate(0deg);
+    }
+    50%
+    {
+        transform: scale(1.3) rotate(5deg);
+        opacity: 50%;
+    }
+    100%
+    {
+        transform: scale(1.2) rotate(4deg);
+        opacity: 75%;
+    }
+
+}
+.img-77{
+    cursor: pointer;
+    width: 16%;
+}
+.img-77:hover{
+    animation: rotate-scale 0.5s ease-in;
+    transform: scale(1.3) rotate(4deg);
+    opacity: 70%;
+
+}
+
+
+
+.bg-all{
+    background-color: #0025ff;
+}
+.my-5{
+    margin-bottom: 0% !important;
+
+}
+.text-77{
+    text-decoration: none !important;
+    font-weight: 900;
+}
+.tail{
+   margin-left: -7% !important;
+}
+.logos{
+    width: 4%;
+    display: flex;
+    cursor: pointer;
+    margin-left: -1% !important;
+    align-items: center;
+   
+}
+@media screen and (max-width: 1200px) {
+    .img-77{
+    
+        width: 33%;
+    }
+    .logos{
+        width: 8%;
+        margin-left: 40% !important;
+       
+       
+    }
+    
+  
+
+    
+}
+@media screen and (max-width: 630px) {
+    .cherry-button h1{
+    
+        font-size:20px ;
+    
+    }
+    .logos{
+        width: 8%;
+        margin-left: 40% !important;
+       
+       
+    }
+    
+    
+
+    
+}  
+@media screen and (max-width: 430px) {
+    .cherry-button h1{
+    
+        font-size:10px ;
+    
+    }
+   .masthead{
+    height: 40%;
+    
+   }
+   .logos{
+    width: 10%;
+    margin-left: 40% !important;
+   
+   
+}
+    
+}  
+@media screen and (max-width: 430px) {
+    .cherry-button h1{
+    
+        font-size:10px ;
+    
+    }
+   .masthead{
+    height: 40%;
+    
+   }
+   .logos{
+    width: 10%;
+    margin-left: 40% !important;
+   
+   
+}
+    
+}  
+@media screen and (max-width: 1024px) {
+    .img-77{
+    
+        width: 49%;
+    }
+
+    
+}
+
+
